@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+
+    <!-- Stylesheets -->
+      <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/mystyle.css" />
+    <link rel="icon" href="img/logo.jpg" />
+  </head>
+
+  <body>
+    <div
+      class="row"
+      style="
+        height: 100%;
+        width: 100%;
+        background: url('img/book3.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        height: 100vh;
+      "
+    >
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6">
+        <!-- Form start -->
+        <form action="" method="" id="login">
+          <h1 class="text-center">Login</h1>
+          <div class="row">
+            
+            <div class="form-group col-sm-12">
+               <label>Email Address: </label>
+               <input class="form-control" name="email"  required/>   
+            </div>
+
+            <div class="form-group col-sm-12">
+              <label>Password:</label>
+              <input class="form-control" name="password1" required/>
+            </div>
+            
+
+              <div class="form-group col-sm-6">
+              Don't have an account? <a href="register.html">Register here</a><br>
+            </div>
+      
+        
+         <!-- The row of buttons -->
+            <div class=" rowForButtons">
+             
+              
+                 <button type="submit"class=" btn loginbtn" ><a href="theBlog.html" class="buttonLink">Login</a></button>
+
+                <button class="btn cancelbtn ">Cancel</button>
+
+            </div> <br>
+              <!-- The row of buttons end -->
+
+            <div class="col-sm-2"></div>
+
+            <div class="col-sm-8 footNote">
+                    Copyright &copy;<script>
+                         document.write(new Date().getFullYear());
+                    </script> All rights reserved
+            </div>
+               
+            <div class="col-sm-2"></div>
+                      
+                         
+            </div>
+          </div>
+        </form>
+        <!-- Form end -->
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+  </body>
+</html>

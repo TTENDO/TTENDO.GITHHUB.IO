@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Changing the color of the links */
+div > a {
+  color: #31b0d5;
+}
+
+a:hover {
+  color: yellow;
+}
+
+/*=====================beginning of register page=======================*/
+
+#register {
+  background: linear-gradient(
+    rgba(29, 29, 32, 0.5),
+    rgba(69, 69, 71, 0.9),
+    rgba(69, 69, 71, 0.9)
+  );
+  /* background-color: #ff79c0;  */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 2;
+  padding: 10px;
+  border-radius: 5%;
+  margin-top: 80px;
+}
+/*=====================end of register page=======================*/
+
+/*=====================beginning of register page=======================*/
+/* Making the login form background darker */
+#login {
+  background: linear-gradient(
+    rgba(29, 29, 32, 0.5),
+    rgba(69, 69, 71, 0.9),
+    rgba(69, 69, 71, 0.9)
+  );
+  /* background-color: #ff79c0;  */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 2;
+  padding: 10px;
+  border-radius: 5%;
+  margin-top: 150px;
+}
+
+/*The buttons row*/
+.cancelbtn {
+  margin-left: 30px;
+  color: #31b0d5;
+}
+.cancelbtn:hover {
+  color: white;
+  background-color: #31b0d5;
+}
+.registerbtn {
+  margin-left: 30px;
+  color: #31b0d5;
+}
+
+.registerbtn:hover {
+  color: white;
+  background-color: #31b0d5;
+}
+.loginbtn {
+  margin-left: 30px;
+  color: #31b0d5;
+}
+
+.loginbtn:hover {
+  color: white;
+  background-color: #31b0d5;
+}
+
+/* Footer note */
+.footNote {
+  font-size: 12px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+/* end of footer note */
+
+/*=====================beginning of login page=======================*/
+
+/*=====================beginning of index page=======================*/
+
+a.registerButton {
+  color: #31b0d5;
+  background-color: white;
+}
+
+a.registerButton:hover {
+  color: white;
+  background-color: #31b0d5;
+}
+
+.buttonLink:hover {
+  text-decoration: none;
+}
+
+/*=====================end of index page=======================*/

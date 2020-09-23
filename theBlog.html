@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+
+    <!-- Stylesheets -->
+      <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/mystyle.css" />
+    <link rel="icon" href="img/logo.jpg" />
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <h3>
+          Welcome to the Blog!!!!!
+        </h3>
+        <p>Write what's on your mind...below</p>
+        <!-- where to input the blog content -->
+        <br />
+        <textarea
+          class="form-control inputBlog"
+          rows="5"
+          id="inputBlog"
+        ></textarea>
+
+        <br />
+        <!-- Onclicking this button, input should be diplayed in the blog div -->
+        <button class="btn btn-primary doneBtn">Done</button><br>
+        <h4>My Blog</h4>
+        <hr />
+        <!-- Where i want to display -->
+    
+          
+             <div class="myBlog" style="width:700px; border:1px solid dogderblue;"></div>
+            
+        
+        
+        </div>
+
+        <div id="updateSpace"></div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+   
+  </body>
+</html>
