@@ -13,7 +13,7 @@ function createRegistrationStore() {
 }
 createRegistrationStore();
 
-function register(e) {
+function register() {
   let regstore = createRegistrationStore();
   const reginputValue = document.getElementsByTagName("input").values;
 

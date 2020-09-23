@@ -6,54 +6,67 @@
     <title>Blog</title>
 
     <!-- Stylesheets -->
-      <link
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    
+
     <!-- custom css -->
     <link rel="stylesheet" href="css/mystyle.css" />
     <link rel="icon" href="img/logo.jpg" />
   </head>
   <body>
+    <nav>
+      <button
+        class="btn btn-info"
+        id="logout"
+        onclick="logout();"
+        style="float: right; margin-top: 15px"
+      >
+        Logout
+      </button>
+    </nav>
     <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-10">
-        <h3>
-          Welcome to the Blog!!!!!
-        </h3>
+      <div class="col-sm-6" s>
+        <h3>Welcome to the Blog!!!!!</h3>
+        <br />
         <p>Write what's on your mind...below</p>
         <!-- where to input the blog content -->
         <br />
-        <textarea
-          class="form-control inputBlog"
-          rows="5"
-          id="inputBlog"
-        ></textarea>
+        <!-- beginning of the blog post form -->
+        <form action="" id="blogPost">
+          <label for="blogContent">Blog Content</label> <br />
+          <textarea
+            class="form-control inputBlog"
+            rows="5"
+            id="inputBlog"
+          ></textarea>
 
-        <br />
-        <!-- Onclicking this button, input should be diplayed in the blog div -->
-        <button class="btn btn-primary doneBtn">Done</button><br>
+          <br />
+          <!-- Onclicking this button, input should be diplayed in the blog div -->
+          <button class="btn btn-primary doneBtn">Done</button><br />
+        </form>
+
+        <!-- End of blog post form -->
+      </div>
+
+      <div class="col-sm-6">
         <h4>My Blog</h4>
         <hr />
         <!-- Where i want to display -->
-    
-          
-             <div class="myBlog" style="width:700px; border:1px solid dogderblue;"></div>
-            
-        
-        
-        </div>
 
-        <div id="updateSpace"></div>
+        <div class="myBlog" style="width: 700px"></div>
       </div>
-      <div class="col-sm-1"></div>
     </div>
 
-    <script src="js/script.js"></script>
-   
+    <script src="js/script.js">
+      function logout(){
+
+        window.location.replace("login.html");
+      }
+    </script>
   </body>
 </html>
